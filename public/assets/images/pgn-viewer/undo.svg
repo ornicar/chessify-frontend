@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 21" width="20" height="21">
+	<title>redo (copy)-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #959d99;stroke-linecap: round;stroke-linejoin: round;stroke-width: 1.2 } 
+	</style>
+	<path id="Layer" class="s0" d="m7.7 8.4h-3v-3"/>
+	<path id="Layer" class="s0" d="m5.3 7.7l1.3-1.3c0.8-0.8 1.8-1.4 2.9-1.5 1.1-0.2 2.2 0 3.2 0.6 1 0.5 1.7 1.4 2.2 2.5 0.4 1 0.5 2.2 0.3 3.3-0.2 1.1-0.8 2.2-1.7 2.9-0.8 0.7-1.9 1.2-3 1.3-1.1 0-2.2-0.3-3.1-0.9-0.9-0.7-1.6-1.6-2-2.7"/>
+</svg>

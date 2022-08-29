@@ -1,0 +1,18 @@
+:root[data-theme="light"] {
+  --background-color-main: #edebe900;
+  --background-color: #{$white};
+  --text-color: #{$black};
+  --text-color-secondary: #{$black};
+  --divider-color: #{$grey300};
+  --menu-item-backround: #F4F7F5;
+  --box-shadow: rgba(97, 97, 97, 0.12);
+}
+
+:root[data-theme="dark"] {
+  --background-color: #{$black700};
+  --background-color-main: #{$black};
+  --text-color: #{$grey};
+  --divider-color: #{$black};
+  --menu-item-backround: #{$black700};
+  --box-shadow: #e2d7d73d;
+}

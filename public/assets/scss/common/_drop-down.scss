@@ -1,0 +1,67 @@
+@import "../../../../src/colors/colors";
+@import "../../../../src/light-dark-mode";
+
+.select-box--container {
+	border: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: var(--background-color);
+	cursor: pointer;
+}
+* {
+	box-sizing: border-box;
+}
+.select-box--box {
+	margin: auto 0px;
+}
+.select-box--selected-item {
+	display: inline-block;
+	width: max-content;
+}
+.select-box--items {
+	div {
+		cursor: pointer;
+		padding: 6px 20px 6px 20px;
+		background-color: var(--background-color);
+
+		&:hover {
+			cursor: pointer;
+			background-color: rgb(245, 243, 240);
+			color: #358c65;
+		}
+
+		@media #{$sm-layout} {
+			padding: 6px 20px 6px 13px;
+		}
+	}
+}
+
+.select-box--arrow {
+	margin: auto 5px;
+	padding: 2px;
+	display: inline-block;
+	background: #aaaaaa26;
+	justify-content: center;
+	display: inline-flex;
+	border-radius: 3px;
+	background-color: rgba(153, 153, 153, 0.15);
+	cursor: pointer;
+	vertical-align: text-top;
+
+	@media #{$sm-layout} {
+		margin: auto 5px auto 5px;
+	}
+}
+
+.disabled-item {
+    pointer-events:none;
+	color: #808080;
+}
+
+.engine-name-wrapper {
+	margin: auto 0px;
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: var(--text-color);
+  }

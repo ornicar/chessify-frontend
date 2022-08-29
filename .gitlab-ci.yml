@@ -1,0 +1,14 @@
+before_script:
+  - docker info
+
+variables:
+  CONTAINER_IMAGE: us-ashburn-1.ocir.io/axac37men24r/new-webview
+  DOCKER_DRIVER: overlay2
+
+build:
+  stage: build
+  script:
+    - docker login us-ashburn-1.ocir.io
+    - docker build . --tag $CONTAINER_IMAGE:$(git log --pretty=format:'%h' -n 1)
+    - docker push $CONTAINER_IMAGE:$(git log --pretty=format:'%h' -n 1)
+    - docker rmi $CONTAINER_IMAGE:$(git log --pretty=format:'%h' -n 1)

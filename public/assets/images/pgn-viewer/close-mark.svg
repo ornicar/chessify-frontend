@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14" width="25" height="22">
+	<title>close-mark-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #959d99;stroke-linecap: round;stroke-width: 1.2 } 
+	</style>
+	<path id="Layer" class="s0" d="m4.8 3.8l6.4 6.4"/>
+	<path id="Layer" class="s0" d="m11.2 3.8l-6.4 6.4"/>
+</svg>

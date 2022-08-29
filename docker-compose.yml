@@ -1,0 +1,13 @@
+version: '2'
+services:
+    new-webview:
+        build: .
+        restart: always
+        container_name: new-webvieew
+        hostname: new-webview
+        stdin_open: true
+        tty: true
+        ports:
+            - "3030:5000"
+        working_dir: /app
+        command: serve -s build
